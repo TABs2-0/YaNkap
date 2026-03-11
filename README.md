@@ -1,3 +1,11 @@
+# YaNkap
+A platform responsible for making transfers of credit rapid and accesible
+Name :YaNkap. 
+We present to you an App that aims to speed up and increase the amount of transactions performed by callboxers, lambda users and individuals.
+Instead of typing long constraining codes like *126*14*681785552*1000#, the user will just select opération enter necessary variables and execute
+with the correct Sim card the confirm with his pin code .We aim to solve the problems of hard to remember codes,slow transactions,typing errors and confusing menus.
+What to note is that unlike Qr codes we will be less constraining and availaible even offline for regions orperiods when network is innaccesible or  unstable.
+We also aim to target as listed above not only users but also momo operators
 This is a Kotlin Multiplatform project targeting Android, iOS, Web.
 
 * [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
@@ -18,45 +26,3 @@ This is a Kotlin Multiplatform project targeting Android, iOS, Web.
 
 * [/webApp](./webApp) contains web React application. It uses the Kotlin/JS library produced
   by the [shared](./shared) module.
-
-### Build and Run Android Application
-
-To build and run the development version of the Android app, use the run configuration from the run widget
-in your IDE’s toolbar or build it directly from the terminal:
-- on macOS/Linux
-  ```shell
-  ./gradlew :composeApp:assembleDebug
-  ```
-- on Windows
-  ```shell
-  .\gradlew.bat :composeApp:assembleDebug
-  ```
-
-### Build and Run Web Application
-
-To build and run the development version of the web app, use the run configuration from the run widget
-in your IDE’s toolbar or run it directly from the terminal:
-1. Install [Node.js](https://nodejs.org/en/download) (which includes `npm`)
-2. Build Kotlin/JS shared code:
-   - on macOS/Linux
-     ```shell
-     ./gradlew :shared:jsBrowserDevelopmentLibraryDistribution
-     ```
-   - on Windows
-     ```shell
-     .\gradlew.bat :shared:jsBrowserDevelopmentLibraryDistribution
-     ```
-3. Build and run the web application
-   ```shell
-   npm install
-   npm run start
-   ```
-
-### Build and Run iOS Application
-
-To build and run the development version of the iOS app, use the run configuration from the run widget
-in your IDE’s toolbar or open the [/iosApp](./iosApp) directory in Xcode and run it from there.
-
----
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
